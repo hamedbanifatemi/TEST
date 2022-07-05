@@ -5,7 +5,7 @@ warnings.simplefilter("ignore", DeprecationWarning)
 
 from ncclient import manager
 
-m = manager.connect(host='172.17.3.3',
+m = manager.connect(host='172.17.8.8',
                     port=830, # 830
                     username='admin',
                     password='123',
